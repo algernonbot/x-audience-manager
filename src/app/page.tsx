@@ -38,12 +38,12 @@ export default async function Page() {
   return (
     <main className="shell">
       <section className="hero-card">
-        <p className="eyebrow">managex/ch.sh interface →</p>
+        <p className="eyebrow">managex · light-only ch.sh interface</p>
         <div className="hero-grid">
           <div>
             <h1>ManageX</h1>
             <p className="lede">
-              A tactile command center for cleaning your X graph. Preview a capped sample, inspect every candidate,
+              A clean, tactile command center for cleaning your X graph. Preview a capped sample, inspect every candidate,
               safe-list accounts you trust, and queue removals with rate-limit-aware controls.
             </p>
             <div className="actions">

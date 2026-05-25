@@ -25,8 +25,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             </nav>
             <div className="nav-spacer" />
             <div className="search-pill" aria-label="Search shortcut"><span>Search...</span><kbd>⌘ K</kbd></div>
-            <button className="icon-button" type="button" aria-label="GitHub">⌘</button>
-            <button className="icon-button" type="button" aria-label="Toggle theme">◐</button>
+            <button className="icon-button" type="button" aria-label="Open command menu">⌘</button>
           </div>
         </header>
         {children}

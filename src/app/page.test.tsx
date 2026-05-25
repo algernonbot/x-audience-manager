@@ -7,7 +7,7 @@ describe("X Audience Manager landing dashboard", () => {
     const element = await Page();
     const html = renderToStaticMarkup(element);
 
-    expect(html).toContain("X Audience Manager");
+    expect(html).toContain("ManageX");
     expect(html).toContain("Login with X");
     expect(html).toContain("100 sampled accounts");
     expect(html).toContain("18 of 25 free removals left");

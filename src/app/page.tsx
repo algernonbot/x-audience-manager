@@ -38,13 +38,13 @@ export default async function Page() {
   return (
     <main className="shell">
       <section className="hero-card">
-        <p className="eyebrow">Premium X graph cleanup</p>
+        <p className="eyebrow">managex/ch.sh interface →</p>
         <div className="hero-grid">
           <div>
-            <h1>X Audience Manager</h1>
+            <h1>ManageX</h1>
             <p className="lede">
-              Clean up who you follow without dashboard bloat. Start with a capped preview scan,
-              review every candidate, safe-list accounts you trust, then queue removals inside your allowance.
+              A tactile command center for cleaning your X graph. Preview a capped sample, inspect every candidate,
+              safe-list accounts you trust, and queue removals with rate-limit-aware controls.
             </p>
             <div className="actions">
               <a className="primary-action" href="/api/mock-login">Login with X</a>
